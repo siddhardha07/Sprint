@@ -1,0 +1,31 @@
+3 start num:n result:0
+
+start:7 num clone 
+
+7 clone:0 temp
+
+andhra:5 temp ten pen
+
+2 temp ten temp
+
+1 one Q Q
+
+3 andhra
+
+pen:1 temp result result
+
+4 Q zero halt
+
+7 Q temp
+
+7 zero Q
+
+3 andhra
+
+halt:9
+temp:0
+Q:0
+one:1
+ten:10
+zero:0
+n:23
