@@ -1,0 +1,21 @@
+3 start num:1010 result:0 ten:10 quot:0 c1:0 c2:0 temp:0 store:0 zero:0 one:1 
+start:7 num temp 
+step5:5 temp ten step1
+2 temp ten temp
+1 quot one quot
+3 step5
+step1:1 temp result temp
+4 quot zero step2
+7 zero store
+7 ten c1
+step3:1 temp store store
+1 c2 one c2
+4 c1 c2 step4
+3 step3
+step4:7 zero c2
+7 store result
+7 quot temp
+7 zero quot
+3 step5
+step2:7 temp result
+9
