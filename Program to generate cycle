@@ -1,0 +1,33 @@
+3 start 
+seq_location:n
+seq_length:4
+cycle_location:0
+cycle_length:1
+
+start:5 cycle_length two tea
+7 seq_location sel
+1 seq_location seq_length cycle_location
+7 cycle_location cyl
+2 seq_length one sle
+coffee:7 sel:0 cyl:0
+1 counter one counter
+1 one sel sel
+1 one cyl cyl
+4 cycle_length counter halt
+3 coffee
+tea:4 cycle_length one green_tea
+halt:9
+green_tea:7 seq_location se2
+1 one se2 cy2
+7 se2:0 cy2:0
+9
+
+two:2
+one:1
+zero:0
+counter:0
+sle:0
+n:1 2 9 5
+
+
+
