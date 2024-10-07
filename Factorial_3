@@ -1,0 +1,16 @@
+3 5 5 0
+5 3 two 46 
+2 3 one c1
+7 5 t
+1 4 t 4
+1 one c2 c2
+4 c1 c2 30
+3 16
+7 4 t
+2 c1 one c1
+4 c1 one stop
+7 one c2
+3 16
+7 one 4
+9
+stop:9 t:0 c1:0 c2:0 one:1 two:2
