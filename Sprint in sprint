@@ -1,0 +1,104 @@
+3 start 
+program:
+
+start:7 read:program cell_num
+4 cell_num zero copy2
+4 cell_num three jump
+4 cell_num one add
+4 cell_num two sub
+4 cell_num four equal
+4 cell_num five less_than
+4 cell_num seven copy
+4 cell_num nine halt
+halt:9
+jump:1 read one a1
+7 a1:0 b1
+1 b1 two b1
+7 b1 read
+3 start 
+copy:1 read one source
+1 read two destiny
+7 source:0 source1
+1 two source1 source1
+7 destiny:0 destiny1
+1 two destiny1 destiny1
+7 source1:0 destiny1:0
+1 destiny one read
+3 start
+add:1 read one first_num
+1 read two second_num
+1 read three third_num
+7 first_num:0 fn1
+7 second_num:0 sn1
+7 third_num:0 tn1
+1 two fn1 fn1
+1 two sn1 sn1
+1 two tn1 tn1
+1 fn1:0 sn1:0 tn1:0
+1 one third_num read
+3 start
+sub:1 read one first
+1 read two second 
+1 read three third
+7 first:0 fn2
+7 second:0 sn2
+7 third:0 tn2
+1 two fn2 fn2
+1 two sn2 sn2
+1 two tn2 tn2
+2 fn2:0 sn2:0 tn2:0
+1 one third read
+3 start
+equal:1 read one f1
+1 f1 one f2 
+1 one f2 f3
+7 f1:0 1f
+7 f2:0 2f
+7 f3:0 3f
+1 two 1f 1f
+1 two 2f 2f
+1 two 3f 3f
+4 1f:0 2f:0 bottle
+1 one f3 read
+3 start
+bottle:7 3f:0 read 
+3 start
+less_than:1 read one l1
+1 l1 one l2 
+1 one l2 l3
+7 l1:0 1l
+7 l2:0 2l
+7 l3:0 3l
+1 two 1l 1l
+1 two 2l 2l
+1 two 3l 3l
+5 1l:0 2l:0 bottle2
+1 one l3 read
+3 start
+bottle2:7 3l:0 read
+3 start
+copy2:1 read one c1
+1 c1 one c2
+7 c1:0 1c
+7 c2:0 2c
+1 two 1c 1c
+1 two 2c 2c
+0 1c:0 2c:0
+1 one c2 read
+3 start
+
+zero:0 
+one:1
+b1:0
+two:2
+three:3
+four:4
+five:5
+seven:7
+nine:9
+
+cell_num:0
+
+
+
+
