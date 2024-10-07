@@ -1,0 +1,18 @@
+3 start1 
+first_element:n 
+length:0
+target:1
+result:0
+start1:4 zero length halt
+start:7 first_element address:unit
+4 unit:0 target equal
+1 one first_element first_element
+1 temp one temp
+4 temp length halt
+3 start
+equal:7 one result
+halt:9
+one:1
+temp:0
+zero:0
+n:2 70 4 10 2 11
