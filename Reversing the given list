@@ -1,0 +1,40 @@
+3 start 
+first_element_location:98
+length:20
+start:7 first_element_location c1
+7 c1 c2
+2 length one d1
+1 c2 d1 c2
+5 length three last
+swap:7 c1 u1
+7 c2 u2
+7 c1 u3
+7 c2 u4
+7 u1:0 temp
+7 u2:0 u3:0
+7 temp u4:0
+1 one c1 c1
+2 c2 one c2
+4 c1 c2 halt
+7 c1 store
+1 one store store
+4 store c2 last
+3 swap
+last:7 c1 u5
+7 c2 u6
+7 c1 u7
+7 c2 u8
+7 u5:0 temp
+7 u6:0 u7:0
+7 temp u8:0
+halt:9
+three:3
+temp:0
+store:0
+d1:0
+c1:0
+c2:0
+one:1
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+
