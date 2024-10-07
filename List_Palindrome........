@@ -1,0 +1,24 @@
+3 start 
+first_element_location:n length:8
+result:0
+start:5 length two palindrome
+7 first_element_location front_cell
+1 first_element_location length last
+2 last one last
+7 last last_cell
+again:4 front_cell:0 last_cell:0 water
+7 one result
+9
+water:4 length two palindrome
+2 last_cell one last_cell
+1 front_cell one front_cell
+5 last_cell front_cell palindrome
+3 again
+palindrome:7 two result
+halt:9
+last:0
+s1:0
+zero:0
+one:1
+two:2
+n:1 2 1 5 5 1 2 1
