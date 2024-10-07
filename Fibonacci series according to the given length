@@ -1,0 +1,32 @@
+3 start
+first_element_location:n
+length:0
+start:7 first_element_location num
+1 one num second
+5 length one halt
+0 0 num:0
+5 length two halt
+0 1 second:0
+7 length lengthey
+2 lengthey two lengthey
+assam:1 one second result
+7 num numey
+7 second secondey
+7 result resultey
+4 counter lengthey halt
+0 0 result:0
+1 secondey:0 numey:0 resultey:0
+1 counter one counter
+7 second num
+7 result second
+3 assam
+halt:9
+one:1
+two:2
+three:3
+zero:0
+counter:0
+lengthey:0
+n:0
+
+
